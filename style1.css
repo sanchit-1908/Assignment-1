@@ -1,0 +1,50 @@
+h1{
+    background-color: rgb(130, 228, 235);
+    text-shadow: 2in;
+    color: rgba(19, 7, 247, 0.868);
+    text-align: center;
+    font-family:'Lobster', cursive;;
+    
+}
+
+div{
+    padding: 100px;
+}
+body{
+    background-color: rgb(211, 244, 244);
+    border:8px solid rgb(255, 6, 15) ;
+    margin: 10px;
+    font-size: large;
+    background-image: url(image.jpeg);
+    
+}
+
+nav{
+   
+    
+    background-color: rgba(0, 4, 255, 0.658);
+    font-size: 40px;
+   
+}
+
+
+nav a{
+    text-decoration: solid;
+    text-align: center;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    
+}
+
+nav a:hover{
+    color: rgb(255, 58, 8);
+    text-decoration: dashed;
+}
+
+div{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+}
+
