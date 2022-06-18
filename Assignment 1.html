@@ -14,7 +14,7 @@
 
 
 <body>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <h1>
        
         ISTE SMP WEB DEVELOPMENT REGISTRATION</h1>
@@ -33,7 +33,7 @@
     </nav>
     <br>
 
-    <div class="card" style="width: 50em;">
+    <div class="card" id = "flow" style="width: 50em;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Hello Everyone...</li>
           <li class="list-group-item">Welcome to the world of Web Development.....</li>
@@ -46,65 +46,102 @@
         <p> Please fill the below information for registration</p>
 
         <br>
-    
-        <b>
-                Username :
-        </b>
-        <input type = "text" placeholder="Enter username">
+        
+        <form action="#">
+
+
+      
+        <label for="id1">
+            <b> Username</b>
+            <input type = "text" placeholder="Enter username" id="id1"> 
+        </label>
         <br>
         <br>
+        
+       <label for="id2">
         <b>Email :</b>
-        <input type="email" placeholder="Enter email">
+        <input type="email" placeholder="Enter email" id="id2">
+       </label>
         <br>
         <br>
     
-    
-        <b>Password "</b>
-        <input type="password" placeholder="Enter password">
+        
+        
+       <label for="id3">
+        <b>Password :</b>
+        <input type="password" placeholder="Enter password" id="id3">
+       </label>
         <br>
         <br>
         <br>
     
-        <b>Date of Birth :</b>
-        <input type="date" >
+        <label for="id4">
+            <b>Date of Birth :</b>
+        <input type="date" id="id4" >
+        </label>
         <br>
         <br>
     
-        <b>Age :</b>
-        <input type="number" placeholder="Enter Age">
+        <label for="id5">
+            <b>Age :</b>
+        <input type="number" placeholder="Enter Age" id="id5">
+        </label>
         <br>
         <br>
     
         <b>Coding level</b>
         <br>
         <p>(Rate yourself as a Coder</p>
-        <input type="radio" value="Basic" name="coding"> Basic 
+        
+        <label for="id6">
+            <input type="radio" value="Basic" name="coding" id="id6"> Basic 
+        </label>
         <br>
         <br>
-        <input type="radio" value="Intermediate" name="coding"> Intermediate
+
+        <label for="id7">
+            <input type="radio" value="Intermediate" name="coding" id="id7"> Intermediate
+        </label>
+        
         <br>
         <br>
-        <input type="radio" value="Expert" name="coding"> Expert
+        
+        <label for="id8">
+            <input type="radio" value="Expert" name="coding" id="id8"> Expert
+        </label>
+
         <br>
         <br>
     
         <b>Known Programming Languages :</b>
         <br>
-        <input type="checkbox" > C 
         <br>
-        <input type="checkbox" > C++
+        
+        <label for="ida1">
+            <input type="checkbox" id="ida1" > C++
+        </label>
+        <br>
+        <br>
+        
+        
+    
+       <label for="ida2">
+        <input type="checkbox" id="ida2" > Python 
+       </label>
+        <br>
         <br>
     
-        <input type="checkbox" > Python 
+       <label for="ida3">
+        <input type="checkbox" id="ida3" > Java
+       </label>
+        <br>
         <br>
     
-        <input type="checkbox" > Java
-        <br>
-        <br>
+        <label for="ida4">
+            <b>Feedback</b>
     
-        <b>feedback</b>
-    
-        <input type = "text" placeholder="Please give us your valuable feedback" >
+        <input type = "text" placeholder="Please give us your valuable feedback" id="ida4">
+        </label>
     
         <br>
         <br>
@@ -113,6 +150,18 @@
     
     
         <image src = "https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg" height="150"></image>
+
+        <br>
+        <br>
+        
+        <button type="button" class="kill" >     
+            <span class="button_text"> SUBMIT </span>
+            <span class="butoon_icon"> 
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </span>
+        </button>
+
+        </form>
     
         
     </div>
